@@ -26,7 +26,7 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto">
           <h1 className="text-xl font-bold tracking-tighter text-gray-600 font-display lg:text-2xl">
-            Coimbatore's Largest Developer Conference
+            Coimbatore&apos;s Largest Developer Conference
           </h1>
           <div className="mt-6 mb-6 space-y-6 text-lg tracking-tight text-gray-800 lg:text-2xl font-display">
             <p>
