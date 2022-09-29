@@ -99,6 +99,10 @@ export function Hero() {
                 <th>09:30 AM</th>
                 <td colSpan="4" rowSpan="1">
                   Women In Tech
+                  <span className="text-slate-600">
+                    By Vidya Devarajan, Director/Technology Manager at Kovan
+                    Technology Labs
+                  </span>
                 </td>
               </tr>
               <tr>
@@ -117,7 +121,7 @@ export function Hero() {
               <tr>
                 <th>12:00 PM</th>
                 <td colSpan="2" rowSpan="1">
-                  Core Web Witals
+                  Core Web Vitals
                   <span className="text-slate-600">By Shidhin</span>
                 </td>
                 <td colSpan="2" rowSpan="1">
@@ -128,7 +132,7 @@ export function Hero() {
               <tr>
                 <th>01:00 PM</th>
                 <td colSpan="2" rowSpan="1">
-                  Get started with Techinical blogging
+                  Get started with Technical blogging
                   <span className="text-slate-600">
                     By Bhavani Ravi Independent Software Consultant
                   </span>
