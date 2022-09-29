@@ -4,139 +4,75 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import { DiamondIcon } from '@/components/DiamondIcon'
-import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
-import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
-import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
-import giordanoSagucioImage from '@/images/avatars/giordano-sagucio.jpg'
-import gordonSandersonImage from '@/images/avatars/gordon-sanderson.jpg'
-import heatherTerryImage from '@/images/avatars/heather-terry.jpg'
-import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
-import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
-import kimberlyParsonsImage from '@/images/avatars/kimberly-parsons.jpg'
-import parkerJohnsonImage from '@/images/avatars/parker-johnson.jpg'
-import piersWilkinsImage from '@/images/avatars/piers-wilkins.jpg'
-import richardAstley from '@/images/avatars/richard-astley.jpg'
-import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
-import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
-import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
-import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+import abhishekImage from '@/images/avatars/abhishek.png'
+import bhavaniImage from '@/images/avatars/bhavani.png'
+import kundavaiImage from '@/images/avatars/kundavai.png'
+import naveenImage from '@/images/avatars/naveen.png'
+import rajuImage from '@/images/avatars/raju.png'
+import ramyaImage from '@/images/avatars/ramya.png'
+import sanjuImage from '@/images/avatars/sanju.png'
+import shidhinImage from '@/images/avatars/shidhin.png'
+import somuImage from '@/images/avatars/somu.png'
+import thirupathiImage from '@/images/avatars/thirupathi.png'
+import vishnuImage from '@/images/avatars/vishnu.png'
 
-const days = [
-  {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
-    speakers: [
-      {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
-      },
-      {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
-    ],
-  },
-  {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    speakers: [
-      {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
-      },
-      {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
-      },
-    ],
-  },
-  {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    speakers: [
-      {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
-      },
-      {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
-      },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
-      },
-    ],
-  },
-]
+const speakers = [
+    {
+        name: 'Kundavai Arivudainambi',
+        role: 'CEO, Eduzo',
+        image: kundavaiImage,
+    },
+    {
+        name: 'Shidhin CR',
+        role: 'GDE, Web Technologies',
+        image: shidhinImage,
+    },
+    {
+        name: 'Sanjay S',
+        role: 'GDE, Android',
+        image: sanjuImage,
+    },
+    {
+        name: 'Bhavani Ravi',
+        role: 'Independent Consultant',
+        image: bhavaniImage,
+    },
+    {
+        name: 'Naveen S',
+        role: 'Sr. Sec. Engineer, Freshworks',
+        image: naveenImage,
+    },
+    {
+        name: 'Raju Kandasamy',
+        role: 'Ld. Consultant, Thoughtworks',
+        image: rajuImage,
+    },
+    {
+        name: 'Thirupathi Krishnan',
+        role: 'Sr. Consultant, Thoughtworks',
+        image: thirupathiImage,
+    },
+    {
+        name: 'Abhishek Mishra',
+        role: 'Developer Advocate, Yugabyte',
+        image: abhishekImage,
+    },
+    {
+        name: 'Sri Vishnu S',
+        role: 'Consultant, Thoughtworks',
+        image: vishnuImage,
+    },
+    {
+        name: 'Somasundaram Mahesh',
+        role: 'Sr. Software Engineer, Hotstar',
+        image: somuImage,
+    },
+    {
+        name: 'Ramya Vardhan',
+        role: 'Ld. Software Egineer, Freshworks',
+        image: ramyaImage,
+    },
+];
 
 function ImageClipPaths({ id, ...props }) {
   return (
@@ -179,19 +115,20 @@ export function Speakers() {
     <section
       id="speakers"
       aria-labelledby="speakers-title"
-      className="px-4 py-20 sm:py-32"
+      className="px-4 py-16"
     >
       <ImageClipPaths id={id} />
       <Container>
         <div className="mx-auto lg:mx-0">
           <h2
             id="speakers-title"
-            className="text-3xl font-medium tracking-tighter text-gray-900 font-display"
+            className="text-xl font-bold tracking-tighter text-slate-900 font-display lg:text-xl"
           >
             Speakers
           </h2>
-          <p className="mt-4 text-xl tracking-tight text-gray-800 font-display">
+          <p className="mt-2 mb-6 space-y-6 text-lg tracking-tighter text-slate-600 font-display">
             Learn from the experts on the most discussed tech topics in the industry.
+            We have stellar line of speakers including Google Developer Experts, Senior Engineers, and Leads of top tech companies. 
           </p>
         </div>
         <Tab.Group
@@ -199,54 +136,13 @@ export function Speakers() {
           className="grid items-start grid-cols-1 mt-14 gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           vertical={tabOrientation === 'vertical'}
         >
-          <div className="relative flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
-            <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block" />
-            <Tab.List className="grid justify-start grid-flow-col px-4 auto-cols-auto gap-x-8 gap-y-10 whitespace-nowrap sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
-              {({ selectedIndex }) =>
-                days.map((day, dayIndex) => (
-                  <div key={day.dateTime} className="relative lg:pl-8">
-                    <DiamondIcon
-                      className={clsx(
-                        'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
-                        dayIndex === selectedIndex
-                          ? 'fill-blue-600 stroke-blue-600'
-                          : 'fill-transparent stroke-slate-400'
-                      )}
-                    />
-                    <div className="relative">
-                      <div
-                        className={clsx(
-                          'font-mono text-sm',
-                          dayIndex === selectedIndex
-                            ? 'text-blue-600'
-                            : 'text-slate-500'
-                        )}
-                      >
-                        <Tab className="[&:not(:focus-visible)]:focus:outline-none">
-                          <span className="absolute inset-0" />
-                          {day.name}
-                        </Tab>
-                      </div>
-                      <time
-                        dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
-                      >
-                        {day.date}
-                      </time>
-                    </div>
-                  </div>
-                ))
-              }
-            </Tab.List>
-          </div>
-          <Tab.Panels className="lg:col-span-3">
-            {days.map((day) => (
+          <Tab.Panels className="lg:col-span-4">
               <Tab.Panel
-                key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
+                key="speakers"
+                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-4 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
-                {day.speakers.map((speaker, speakerIndex) => (
+                {speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
                       <div
@@ -275,13 +171,12 @@ export function Speakers() {
                     <h3 className="mt-8 text-xl font-bold tracking-tight font-display text-slate-900">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
+                    <p className="mt-1 text-base tracking-tight text-slate-600">
                       {speaker.role}
                     </p>
                   </div>
                 ))}
               </Tab.Panel>
-            ))}
           </Tab.Panels>
         </Tab.Group>
       </Container>

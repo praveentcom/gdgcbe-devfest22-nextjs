@@ -25,8 +25,8 @@ module.exports = {
         '5xl': '2.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        display: ['DM Sans', ...defaultTheme.fontFamily.sans],
+        sans: ['Space Mono', ...defaultTheme.fontFamily.sans],
+        display: ['Space Mono', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '2xl': '40rem',

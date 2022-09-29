@@ -19,6 +19,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Speakers />
+        {/* <Schedule /> */}
       </main>
       <Footer />
     </>

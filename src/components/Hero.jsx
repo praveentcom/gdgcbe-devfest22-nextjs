@@ -25,10 +25,10 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto">
-          <h1 className="text-xl font-bold tracking-tighter text-gray-600 font-display lg:text-2xl">
+          <h1 className="text-xl font-bold tracking-tighter text-slate-900 font-display lg:text-xl">
             Coimbatore&apos;s Largest Developer Conference
           </h1>
-          <div className="mt-6 mb-6 space-y-6 text-lg tracking-tight text-gray-800 lg:text-2xl font-display">
+          <div className="mt-6 mb-6 space-y-6 text-lg tracking-tighter text-slate-600 font-display">
             <p>
             An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers.
             It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.
@@ -38,7 +38,10 @@ export function Hero() {
               We have a lot of exciting things planned for you this year including power packed sessions, and a lot of fun.
             </p>
           </div>
-          <p className="mt-12 text-lg text-gray-800 font-display">
+            <div className="justify-start my-8 tracking-tighter lg:hidden">
+            <Button className="px-8" href="https://gdg.community.dev/events/details/google-gdg-coimbatore-presents-devfest-2022/">Register now</Button>
+            </div>
+          <p className="mt-8 text-lg tracking-tighter text-gray-800 font-display">
             Organised by
             </p>
           <div className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
@@ -48,25 +51,25 @@ export function Hero() {
           </div>
           <dl className="grid grid-cols-2 mt-16 gap-y-6 gap-x-10 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             <div key={'Speakers'}>
-                <dt className="font-mono text-sm text-blue-600">{'Speakers'}</dt>
+                <dt className="text-sm text-blue-600">{'Speakers'}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
                   {'10+'}
                 </dd>
             </div>
             <div key={'Attendees'}>
-                <dt className="font-mono text-sm text-red-600">{'Attendees'}</dt>
+                <dt className="text-sm text-red-600">{'Attendees'}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">
                   {'400+'}
                 </dd>
             </div>
             <div key={'Price'}>
-                <dt className="font-mono text-sm text-yellow-600">{'Price'}</dt>
+                <dt className="text-sm text-yellow-600">{'Price'}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-900">
                   {'Free :)'}
                 </dd>
             </div>
             <div key={'Location'}>
-                <dt className="font-mono text-sm text-green-600">{'Location'}</dt>
+                <dt className="text-sm text-green-600">{'Location'}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-green-900">
                   {'TBA'}
                 </dd>
