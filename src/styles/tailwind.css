@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+table th {
+  white-space: nowrap;
+}
+
+table th,
+table td {
+  line-height: 2;
+  padding: 0.5rem 1rem;
+}
+table th {
+  font-weight: normal;
+  border-top: thin dotted #ccc;
+}
+
+table td {
+  line-height: 2;
+  border-radius: 0.2rem;
+  transition: opacity 0.3s ease;
+}
+table td > span {
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+  font-weight: normal;
+  display: block;
+  width: 100%;
+}
