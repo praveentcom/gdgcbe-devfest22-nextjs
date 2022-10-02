@@ -253,7 +253,7 @@ export function Hero() {
                   </span>
                 </td>
                 <td colSpan="2" rowSpan="1">
-                  Kotlin
+                  Jetpack Compose
                   <span className="text-slate-600">
                     By Somasundaram Mahesh Software Development Engineer,
                     Disney+ Hotstar
