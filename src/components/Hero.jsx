@@ -7,6 +7,12 @@ import logoGdgCoimbatore from '@/images/logos/logo_gdg_coimbatore.png'
 import logoGdgCloudCoimbatore from '@/images/logos/logo_gdg_cloud_coimbatore.png'
 import logoWtmCoimbatore from '@/images/logos/logo_wtm_coimbatore.png'
 
+import yanneLogo from '@/images/logos/yaane.png'
+import goaugumentLogo from '@/images/logos/goaugument.png'
+import kovanLogo from '@/images/logos/kovan.png'
+import centralLogo from '@/images/logos/tcc.png'
+import simplicityLogo from '@/images/logos/simplicity.png'
+
 export function Hero() {
   return (
     <div className="relative px-4 pt-2 pb-20 lg:pt-8">
@@ -73,9 +79,81 @@ export function Hero() {
               unoptimized
             />
           </div>
+
+          <p className="mt-8 font-display text-lg text-gray-800">
+            Sponsored By
+          </p>
+          <div id="sponsers" className="">
+            <a
+              href="https://www.yaanetechnologies.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={yanneLogo}
+                alt={'Yaane Technology Coimbatore'}
+                unoptimized
+              />
+            </a>
+            <a href="https://kovanlabs.com/" target="_blank" rel="noreferrer">
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={kovanLogo}
+                alt={'Kovan Labs'}
+                unoptimized
+              />
+            </a>
+            <a
+              href="https://www.goaugment.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className="mt-6"
+                width={'208'}
+                src={goaugumentLogo}
+                alt={'go augument'}
+                unoptimized
+              />
+            </a>
+          </div>
+          <br />
+          <p className="mt-8 font-display text-lg text-gray-800">
+            Reachout Partners
+          </p>
+          <div id="partners" className="">
+            <a href="https://simplicity.in/" target="_blank" rel="noreferrer">
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={simplicityLogo}
+                alt={'simplicity Coimbatore'}
+                unoptimized
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/thecoimbatorecentral/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className="central mt-6"
+                width={'300'}
+                src={centralLogo}
+                alt={'the coimbatore central'}
+                unoptimized
+              />
+            </a>
+          </div>
           <br />
           <br />
           <br />
+          <div></div>
+          <div></div>
+          <div></div>
           <h1 className="font-display text-xl font-bold text-gray-600 lg:text-2xl">
             Schedule
           </h1>
