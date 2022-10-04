@@ -137,7 +137,7 @@ export function Hero() {
             </a>
           </div>
           <p className="mt-8 font-display text-lg text-gray-800">
-            Ecosystem Partner:
+            Ecosystem Partners
           </p>
           <div
             id="eco-partners"
