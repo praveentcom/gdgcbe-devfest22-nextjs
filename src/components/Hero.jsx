@@ -12,6 +12,7 @@ import goaugumentLogo from '@/images/logos/goaugument.png'
 import kovanLogo from '@/images/logos/kovan.png'
 import centralLogo from '@/images/logos/tcc.png'
 import simplicityLogo from '@/images/logos/simplicity.png'
+import tieLogo from '@/images/logos/tie.png'
 
 export function Hero() {
   return (
@@ -83,7 +84,7 @@ export function Hero() {
           <p className="mt-8 font-display text-lg text-gray-800">
             Sponsored By
           </p>
-          <div id="sponsers" className="">
+          <div id="sponsers" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
             <a
               href="https://www.yaanetechnologies.com/"
               target="_blank"
@@ -124,7 +125,7 @@ export function Hero() {
           <p className="mt-8 font-display text-lg text-gray-800">
             Reachout Partners
           </p>
-          <div id="partners" className="">
+          <div id="partners" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
             <a href="https://simplicity.in/" target="_blank" rel="noreferrer">
               <Image
                 className="mt-6"
@@ -134,16 +135,24 @@ export function Hero() {
                 unoptimized
               />
             </a>
+          </div>
+          <p className="mt-8 font-display text-lg text-gray-800">
+            Ecosystem Partner:
+          </p>
+          <div
+            id="eco-partners"
+            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+          >
             <a
-              href="https://www.instagram.com/thecoimbatorecentral/"
+              href="https://tiecoimbatore.org/"
               target="_blank"
               rel="noreferrer"
             >
               <Image
-                className="central mt-6"
+                className="mt-6"
                 width={'300'}
-                src={centralLogo}
-                alt={'the coimbatore central'}
+                src={tieLogo}
+                alt={'TiE Coimbatore'}
                 unoptimized
               />
             </a>
