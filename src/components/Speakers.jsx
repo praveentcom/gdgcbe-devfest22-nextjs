@@ -81,7 +81,7 @@ const speakers = [
   },
   {
     name: 'Vidya Devarajan',
-    role: 'Director/Technology Manager at Kovan Technology Labs',
+    role: 'Director at Kovan Technology Labs',
     image: vidhyaImage,
   },
 ]

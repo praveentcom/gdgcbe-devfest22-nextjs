@@ -27,3 +27,10 @@ table td > span {
   display: block;
   width: 100%;
 }
+
+#venue-partners img,
+#eco-partners img,
+#partners img,
+#sponsers img {
+  max-width: 200px;
+}

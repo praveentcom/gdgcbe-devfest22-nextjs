@@ -13,6 +13,7 @@ import kovanLogo from '@/images/logos/kovan.png'
 import centralLogo from '@/images/logos/tcc.png'
 import simplicityLogo from '@/images/logos/simplicity.png'
 import tieLogo from '@/images/logos/tie.png'
+import grdLogo from '@/images/logos/grdcs.png'
 
 export function Hero() {
   return (
@@ -157,6 +158,27 @@ export function Hero() {
               />
             </a>
           </div>
+          <p className="mt-8 font-display text-lg text-gray-800">
+            Venue Sponsor
+          </p>
+          <div
+            id="venue-partners"
+            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+          >
+            <a
+              href="https://www.grd.org/grdcs/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={grdLogo}
+                alt={'Dr.G.R.Damodaran College of Science'}
+                unoptimized
+              />
+            </a>
+          </div>
           <br />
           <br />
           <br />
@@ -173,13 +195,13 @@ export function Hero() {
               <tr>
                 <th>08:00 AM</th>
                 <td colSpan="4" rowSpan="1" className="">
-                  Welcome
+                  Performance by The Fifth Dimension
                 </td>
               </tr>
               <tr>
                 <th>08:45 AM</th>
                 <td colSpan="4" rowSpan="1">
-                  Keynote
+                  Felicitation and Kick-off
                 </td>
               </tr>
               <tr>
@@ -187,8 +209,7 @@ export function Hero() {
                 <td colSpan="4" rowSpan="1">
                   Women In Tech
                   <span className="text-slate-600">
-                    By Vidya Devarajan, Director/Technology Manager at Kovan
-                    Technology Labs
+                    By Vidya Devarajan, Director at Kovan Technology Labs
                   </span>
                 </td>
               </tr>
@@ -309,7 +330,7 @@ export function Hero() {
             <div key={'Location'}>
               <dt className="text-sm text-green-600">{'Location'}</dt>
               <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-green-900">
-                {'TBA'}
+                {'Dr.G.R.Damodaran College of Science'}
               </dd>
             </div>
           </dl>
