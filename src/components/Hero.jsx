@@ -138,6 +138,27 @@ export function Hero() {
             </a>
           </div>
           <p className="mt-8 font-display text-lg text-gray-800">
+            Community Partners
+          </p>
+          <div
+            id="comm-partners"
+            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+          >
+            <a
+              href="https://www.instagram.com/thecoimbatorecentral/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={centralLogo}
+                alt={'Coimbatore Central'}
+                unoptimized
+              />
+            </a>
+          </div>
+          <p className="mt-8 font-display text-lg text-gray-800">
             Ecosystem Partners
           </p>
           <div

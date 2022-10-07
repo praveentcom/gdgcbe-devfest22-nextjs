@@ -31,6 +31,7 @@ table td > span {
 #venue-partners img,
 #eco-partners img,
 #partners img,
-#sponsers img {
+#sponsers img,
+#comm-partners img {
   max-width: 200px;
 }
