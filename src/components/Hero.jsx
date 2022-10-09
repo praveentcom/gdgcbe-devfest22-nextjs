@@ -237,8 +237,9 @@ export function Hero() {
               <tr>
                 <th>10:30 AM</th>
                 <td colSpan="4" rowSpan="1">
-                  AR + EdTech
-                  <span className="text-slate-600">By Kundavi</span>
+                  How to build self-confidence and consistency and tips to avoid
+                  procrastination, Effective time management tips.
+                  <span className="text-slate-600">By Kiruthika S</span>
                 </td>
               </tr>
               <tr>

@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import abhishekImage from '@/images/avatars/abhishek.png'
 import bhavaniImage from '@/images/avatars/bhavani.png'
-import kundavaiImage from '@/images/avatars/kundavai.png'
+import kiruthikaImage from '@/images/avatars/kiruthika.png'
 import naveenImage from '@/images/avatars/naveen.png'
 import rajuImage from '@/images/avatars/raju.png'
 import ramyaImage from '@/images/avatars/ramya.png'
@@ -30,9 +30,9 @@ const speakers = [
     image: bhavaniImage,
   },
   {
-    name: 'Kundavai Arivudainambi',
-    role: 'CEO, Eduzo',
-    image: kundavaiImage,
+    name: 'Kiruthika S',
+    role: 'CloudSide, ML Engineer Intern',
+    image: kiruthikaImage,
   },
   {
     name: 'Navaneeth Malingan',
