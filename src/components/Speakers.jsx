@@ -14,7 +14,6 @@ import sanjuImage from '@/images/avatars/sanju.png'
 import shidhinImage from '@/images/avatars/shidhin.png'
 import somuImage from '@/images/avatars/somu.png'
 import thirupathiImage from '@/images/avatars/thirupathi.png'
-import vishnuImage from '@/images/avatars/vishnu.png'
 import navaneethImage from '@/images/avatars/navaneeth.png'
 import vidhyaImage from '@/images/avatars/vidhya.png'
 
@@ -68,11 +67,6 @@ const speakers = [
     name: 'Somasundaram Mahesh',
     role: 'Sr. Software Engineer, Hotstar',
     image: somuImage,
-  },
-  {
-    name: 'Sri Vishnu S',
-    role: 'Consultant, Thoughtworks',
-    image: vishnuImage,
   },
   {
     name: 'Thirupathi Krishnan',
@@ -134,11 +128,11 @@ export function Speakers() {
         <div className="mx-auto lg:mx-0">
           <h2
             id="speakers-title"
-            className="font-display text-xl font-bold tracking-tighter text-slate-900 lg:text-xl"
+            className="text-xl font-bold tracking-tighter font-display text-slate-900 lg:text-xl"
           >
             Speakers
           </h2>
-          <p className="mt-2 mb-6 space-y-6 font-display text-lg tracking-tighter text-slate-600">
+          <p className="mt-2 mb-6 space-y-6 text-lg tracking-tighter font-display text-slate-600">
             Learn from the experts on the most discussed tech topics in the
             industry. We have stellar line of speakers including Google
             Developer Experts, Senior Engineers, and Leads of top tech
@@ -147,7 +141,7 @@ export function Speakers() {
         </div>
         <Tab.Group
           as="div"
-          className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
+          className="grid items-start grid-cols-1 mt-14 gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           vertical={tabOrientation === 'vertical'}
         >
           <Tab.Panels className="lg:col-span-4">
@@ -174,7 +168,7 @@ export function Speakers() {
                       style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                     >
                       <Image
-                        className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                        className="absolute inset-0 object-cover w-full h-full transition duration-300 group-hover:scale-110"
                         src={speaker.image}
                         alt=""
                         priority
@@ -182,7 +176,7 @@ export function Speakers() {
                       />
                     </div>
                   </div>
-                  <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                  <h3 className="mt-8 text-xl font-bold tracking-tight font-display text-slate-900">
                     {speaker.name}
                   </h3>
                   <p className="mt-1 text-base tracking-tight text-slate-600">
