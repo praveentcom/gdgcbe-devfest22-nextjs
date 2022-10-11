@@ -13,6 +13,7 @@ import kovanLogo from '@/images/logos/kovan.png'
 import centralLogo from '@/images/logos/tcc.png'
 import simplicityLogo from '@/images/logos/simplicity.png'
 import tieLogo from '@/images/logos/tie.png'
+import dudemeLogo from '@/images/logos/dudeme.png'
 import grdLogo from '@/images/logos/grdcs.png'
 
 export function Hero() {
@@ -196,6 +197,23 @@ export function Hero() {
                 width={'300'}
                 src={grdLogo}
                 alt={'Dr.G.R.Damodaran College of Science'}
+                unoptimized
+              />
+            </a>
+          </div>
+          <p className="mt-8 font-display text-lg text-gray-800">
+            Gifting Sponsor
+          </p>
+          <div
+            id="gift-partners"
+            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+          >
+            <a href="https://www.dudeme.in/" target="_blank" rel="noreferrer">
+              <Image
+                className="mt-6"
+                width={'300'}
+                src={dudemeLogo}
+                alt={'Dudeme'}
                 unoptimized
               />
             </a>
