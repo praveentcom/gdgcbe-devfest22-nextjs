@@ -27,7 +27,7 @@ export function Header() {
         </div>
         <div className="hidden tracking-tighter sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <Button className="px-8" href="https://forms.gle/tnKWkjGKhFYSWTej6">
-            Waitlist
+            Join Waitlist
           </Button>
         </div>
       </Container>

@@ -53,7 +53,7 @@ export function Hero() {
           </div>
           <div className="justify-start my-8 lg:hidden">
             <Button className="px-8" href="https://forms.gle/tnKWkjGKhFYSWTej6">
-              Waitlist
+                Join Waitlist
             </Button>
           </div>
           <p className="mt-8 text-lg text-gray-800 font-display">
