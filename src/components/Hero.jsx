@@ -19,7 +19,7 @@ import grdLogo from '@/images/logos/grdcs.png'
 export function Hero() {
   return (
     <div className="relative px-4 pt-2 pb-20 lg:pt-8">
-      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden">
+      <div className="absolute inset-x-0 overflow-hidden -top-48 -bottom-14">
         <Image
           className="absolute top-0 left-0 translate-y-[-10%] translate-x-[-80%] -scale-x-100 sm:left-1/2"
           src={backgroundImage}
@@ -34,10 +34,10 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto">
-          <h1 className="font-display text-xl font-bold text-slate-900 lg:text-xl">
+          <h1 className="text-xl font-bold font-display text-slate-900 lg:text-xl">
             Coimbatore&apos;s Largest Developer Conference
           </h1>
-          <div className="mt-6 mb-6 space-y-6 font-display text-lg  text-slate-600">
+          <div className="mt-6 mb-6 space-y-6 text-lg font-display text-slate-600">
             <p>
               An annual event hosted by the Google Developers Group across the
               world to bring the technology closer to the developers. It is an
@@ -51,12 +51,12 @@ export function Hero() {
               lot of fun.
             </p>
           </div>
-          <div className="my-8 justify-start lg:hidden">
+          <div className="justify-start my-8 lg:hidden">
             <Button className="px-8" href="https://forms.gle/tnKWkjGKhFYSWTej6">
-              Request Invite
+                Waitlist
             </Button>
           </div>
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Organised by
           </p>
           <div className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
@@ -83,7 +83,7 @@ export function Hero() {
             />
           </div>
 
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Sponsored By
           </p>
           <div id="sponsers" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
@@ -124,7 +124,7 @@ export function Hero() {
             </a>
           </div>
           <br />
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Reachout Partners
           </p>
           <div id="partners" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
@@ -138,7 +138,7 @@ export function Hero() {
               />
             </a>
           </div>
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Community Partners
           </p>
           <div
@@ -159,7 +159,7 @@ export function Hero() {
               />
             </a>
           </div>
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Ecosystem Partners
           </p>
           <div
@@ -180,7 +180,7 @@ export function Hero() {
               />
             </a>
           </div>
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Venue Sponsor
           </p>
           <div
@@ -201,7 +201,7 @@ export function Hero() {
               />
             </a>
           </div>
-          <p className="mt-8 font-display text-lg text-gray-800">
+          <p className="mt-8 text-lg text-gray-800 font-display">
             Gifting Sponsor
           </p>
           <div
@@ -224,7 +224,7 @@ export function Hero() {
           <div></div>
           <div></div>
           <div></div>
-          <h1 className="font-display text-xl font-bold text-gray-600 lg:text-2xl">
+          <h1 className="text-xl font-bold text-gray-600 font-display lg:text-2xl">
             Schedule
           </h1>
           <br />
@@ -354,7 +354,7 @@ export function Hero() {
               </tr>
             </tbody>
           </table>
-          <dl className="mt-16 grid grid-cols-2 gap-y-6 gap-x-10 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+          <dl className="grid grid-cols-2 mt-16 gap-y-6 gap-x-10 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             <div key={'Speakers'}>
               <dt className="text-sm text-blue-600">{'Speakers'}</dt>
               <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
