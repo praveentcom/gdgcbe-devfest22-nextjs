@@ -37,7 +37,7 @@ export function Hero() {
           <h1 className="text-xl font-bold font-display text-slate-900 lg:text-xl">
             Coimbatore&apos;s Largest Developer Conference
           </h1>
-          <div className="mt-6 mb-6 space-y-6 text-lg font-display text-slate-600">
+          <div className="mt-4 mb-6 space-y-6 text-lg font-display text-slate-600">
             <p>
               An annual event hosted by the Google Developers Group across the
               world to bring the technology closer to the developers. It is an
@@ -53,29 +53,29 @@ export function Hero() {
           </div>
           <div className="justify-start my-8 lg:hidden">
             <Button className="px-8" href="https://forms.gle/tnKWkjGKhFYSWTej6">
-                Waitlist
+              Waitlist
             </Button>
           </div>
           <p className="mt-8 text-lg text-gray-800 font-display">
             Organised by
           </p>
-          <div className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
+          <div className="mt-2 lg:grid lg:grid-cols-4 lg:gap-8">
             <Image
-              className="mt-6"
+              className="mt-4"
               width={'300'}
               src={logoGdgCoimbatore}
               alt={'GDG Coimbatore DevFest 2022'}
               unoptimized
             />
             <Image
-              className="mt-6"
+              className="mt-4"
               width={'300'}
               src={logoGdgCloudCoimbatore}
               alt={'GDG Coimbatore DevFest 2022'}
               unoptimized
             />
             <Image
-              className="mt-6"
+              className="mt-4"
               width={'208'}
               src={logoWtmCoimbatore}
               alt={'GDG Coimbatore DevFest 2022'}
@@ -86,15 +86,15 @@ export function Hero() {
           <p className="mt-8 text-lg text-gray-800 font-display">
             Sponsored By
           </p>
-          <div id="sponsers" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
+          <div id="sponsers" className="mt-0 lg:grid lg:grid-cols-5 lg:gap-8">
             <a
               href="https://www.yaanetechnologies.com/"
               target="_blank"
               rel="noreferrer"
             >
               <Image
-                className="mt-6"
-                width={'300'}
+                className="mt-2"
+                width={'160'}
                 src={yanneLogo}
                 alt={'Yaane Technology Coimbatore'}
                 unoptimized
@@ -102,8 +102,8 @@ export function Hero() {
             </a>
             <a href="https://kovanlabs.com/" target="_blank" rel="noreferrer">
               <Image
-                className="mt-6"
-                width={'300'}
+                className="mt-2"
+                width={'160'}
                 src={kovanLogo}
                 alt={'Kovan Labs'}
                 unoptimized
@@ -115,8 +115,8 @@ export function Hero() {
               rel="noreferrer"
             >
               <Image
-                className="mt-6"
-                width={'208'}
+                className="mt-0"
+                width={'160'}
                 src={goaugumentLogo}
                 alt={'go augument'}
                 unoptimized
@@ -124,106 +124,123 @@ export function Hero() {
             </a>
           </div>
           <br />
-          <p className="mt-8 text-lg text-gray-800 font-display">
-            Reachout Partners
-          </p>
-          <div id="partners" className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8">
-            <a href="https://simplicity.in/" target="_blank" rel="noreferrer">
-              <Image
-                className="mt-6"
-                width={'300'}
-                src={simplicityLogo}
-                alt={'simplicity Coimbatore'}
-                unoptimized
-              />
-            </a>
+          <div id="sponsers" className="mt-0 lg:grid lg:grid-cols-5 lg:gap-8">
+            <div>
+              <p className="mt-4 text-gray-800 text-md font-display">
+                Reachout Partners
+              </p>
+              <div
+                id="partners"
+                className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+              >
+                <a
+                  href="https://simplicity.in/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    className="my-4 mb-12"
+                    width={'120'}
+                    src={simplicityLogo}
+                    alt={'simplicity Coimbatore'}
+                    unoptimized
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="mt-4 text-gray-800 text-md font-display">
+                Community Partners
+              </p>
+              <div
+                id="comm-partners"
+                className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+              >
+                <a
+                  href="https://www.instagram.com/thecoimbatorecentral/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    className="my-4 mb-12"
+                    width={'120'}
+                    src={centralLogo}
+                    alt={'Coimbatore Central'}
+                    unoptimized
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="mt-4 text-gray-800 text-md font-display">
+                Ecosystem Partners
+              </p>
+              <div
+                id="eco-partners"
+                className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+              >
+                <a
+                  href="https://tiecoimbatore.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    className="my-4 mb-12"
+                    width={'120'}
+                    src={tieLogo}
+                    alt={'TiE Coimbatore'}
+                    unoptimized
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="mt-4 text-gray-800 text-md font-display">
+                Venue Sponsor
+              </p>
+              <div
+                id="venue-partners"
+                className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+              >
+                <a
+                  href="https://www.grd.org/grdcs/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    className="my-4 mb-12"
+                    width={'120'}
+                    src={grdLogo}
+                    alt={'Dr.G.R.Damodaran College of Science'}
+                    unoptimized
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="mt-4 text-gray-800 text-md font-display">
+                Gifting Sponsor
+              </p>
+              <div
+                id="gift-partners"
+                className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
+              >
+                <a
+                  href="https://www.dudeme.in/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    className="my-4 mb-12"
+                    width={'120'}
+                    src={dudemeLogo}
+                    alt={'Dudeme'}
+                    unoptimized
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-          <p className="mt-8 text-lg text-gray-800 font-display">
-            Community Partners
-          </p>
-          <div
-            id="comm-partners"
-            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
-          >
-            <a
-              href="https://www.instagram.com/thecoimbatorecentral/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                className="mt-6"
-                width={'300'}
-                src={centralLogo}
-                alt={'Coimbatore Central'}
-                unoptimized
-              />
-            </a>
-          </div>
-          <p className="mt-8 text-lg text-gray-800 font-display">
-            Ecosystem Partners
-          </p>
-          <div
-            id="eco-partners"
-            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
-          >
-            <a
-              href="https://tiecoimbatore.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                className="mt-6"
-                width={'300'}
-                src={tieLogo}
-                alt={'TiE Coimbatore'}
-                unoptimized
-              />
-            </a>
-          </div>
-          <p className="mt-8 text-lg text-gray-800 font-display">
-            Venue Sponsor
-          </p>
-          <div
-            id="venue-partners"
-            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
-          >
-            <a
-              href="https://www.grd.org/grdcs/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                className="mt-6"
-                width={'300'}
-                src={grdLogo}
-                alt={'Dr.G.R.Damodaran College of Science'}
-                unoptimized
-              />
-            </a>
-          </div>
-          <p className="mt-8 text-lg text-gray-800 font-display">
-            Gifting Sponsor
-          </p>
-          <div
-            id="gift-partners"
-            className="mt-0 lg:grid lg:grid-cols-4 lg:gap-8"
-          >
-            <a href="https://www.dudeme.in/" target="_blank" rel="noreferrer">
-              <Image
-                className="mt-6"
-                width={'300'}
-                src={dudemeLogo}
-                alt={'Dudeme'}
-                unoptimized
-              />
-            </a>
-          </div>
-          <br />
-          <br />
-          <br />
-          <div></div>
-          <div></div>
-          <div></div>
           <h1 className="text-xl font-bold text-gray-600 font-display lg:text-2xl">
             Schedule
           </h1>
@@ -309,7 +326,7 @@ export function Hero() {
                 <td colSpan="2" rowSpan="1">
                   Actions on Google + IoT
                   <span className="text-slate-600">
-                    By Thirupathi Krishnan Senior Consultant & Gnana Ganesh
+                    By Thirupathi Krishnan & Gnana Ganesh, Thoughtworks
                   </span>
                 </td>
               </tr>
