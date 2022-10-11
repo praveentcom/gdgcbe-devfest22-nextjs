@@ -153,7 +153,7 @@ export function Speakers() {
           <Tab.Panels className="lg:col-span-4">
             <Tab.Panel
               key="speakers"
-              className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-4 [&:not(:focus-visible)]:focus:outline-none"
+              className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-5 [&:not(:focus-visible)]:focus:outline-none"
               unmount={false}
             >
               {speakers.map((speaker, speakerIndex) => (

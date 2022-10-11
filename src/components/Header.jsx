@@ -22,7 +22,8 @@ export function Header() {
               <time dateTime="2022-10-15">Oct 15, 2022</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Dr.G.R.D College of Science</p>
+            <a href='https://goo.gl/maps/9Tbtrm1AArnzNvNS6'><p className='underline'>Dr.G.R.D College of Science →</p></a>
+            
           </div>
         </div>
         <div className="hidden tracking-tighter sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
