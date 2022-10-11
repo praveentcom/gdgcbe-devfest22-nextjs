@@ -309,7 +309,7 @@ export function Hero() {
                 <td colSpan="2" rowSpan="1">
                   Actions on Google + IoT
                   <span className="text-slate-600">
-                    By Thirupathi Krishnan Senior Consultant
+                    By Thirupathi Krishnan Senior Consultant & Gnana Ganesh
                   </span>
                 </td>
               </tr>
