@@ -326,7 +326,7 @@ export function Hero() {
                 <td colSpan="2" rowSpan="1">
                   Actions on Google + IoT
                   <span className="text-slate-600">
-                    By Thirupathi Krishnan & Gnana Ganesh, Thoughtworks
+                    By Thirupathi Krishnan & Ghana Ganesh, Thoughtworks
                   </span>
                 </td>
               </tr>

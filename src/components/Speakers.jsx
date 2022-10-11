@@ -30,6 +30,11 @@ const speakers = [
     image: bhavaniImage,
   },
   {
+    name: 'Ghana Ganesh',
+    role: 'Application Developer, Thoughtworks',
+    image: ghanaImage,
+  },
+  {
     name: 'Kiruthika S',
     role: 'CloudSide, ML Engineer Intern',
     image: kiruthikaImage,
@@ -73,11 +78,6 @@ const speakers = [
     name: 'Thirupathi Krishnan',
     role: 'Sr. Consultant, Thoughtworks',
     image: thirupathiImage,
-  },
-  {
-    name: 'Ghana Ganesh',
-    role: 'Application Developer, Thoughtworks',
-    image: ghanaImage,
   },
   {
     name: 'Vidya Devarajan',
