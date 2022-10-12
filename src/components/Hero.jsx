@@ -349,16 +349,16 @@ export function Hero() {
               <tr>
                 <th>05:00 PM</th>
                 <td colSpan="2" rowSpan="1">
-                  Optimizing TF Models for Edge Devices
-                  <span className="text-slate-600">
-                    By Navaneeth Malingan, Founder & AI Lead at Nunnari
-                  </span>
-                </td>
-                <td colSpan="2" rowSpan="1">
                   Scaling Your Database Up and Out: A Guide to Distributed
                   Database Systems
                   <span className="text-slate-600">
                     By Abhishek Mishra Developer Advocate, Yugabyte
+                  </span>
+                </td>
+                <td colSpan="2" rowSpan="1">
+                  Optimizing TF Models for Edge Devices
+                  <span className="text-slate-600">
+                    By Navaneeth Malingan, Founder & AI Lead at Nunnari
                   </span>
                 </td>
               </tr>
