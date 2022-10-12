@@ -286,26 +286,29 @@ export function Hero() {
               <tr>
                 <th>12:00 PM</th>
                 <td colSpan="2" rowSpan="1">
-                  Core Web Vitals
-                  <span className="text-slate-600">By Shidhin</span>
+                  Jetpack Compose
+                  <span className="text-slate-600">
+                    By Somasundaram Mahesh Software Development Engineer,
+                    Disney+ Hotstar
+                  </span>
                 </td>
                 <td colSpan="2" rowSpan="1">
-                  A different way to think about animations with Jetpack Compose
-                  <span className="text-slate-600">By Sanjay S</span>
+                  Core Web Vitals
+                  <span className="text-slate-600">By Shidhin</span>
                 </td>
               </tr>
               <tr>
                 <th>01:00 PM</th>
                 <td colSpan="2" rowSpan="1">
-                  Get started with Technical blogging
-                  <span className="text-slate-600">
-                    By Bhavani Ravi Independent Software Consultant
-                  </span>
-                </td>
-                <td colSpan="2" rowSpan="1">
                   Simplifying Code Security for Developers
                   <span className="text-slate-600">
                     By Naveen S Senior Security Engineer, Freshworks
+                  </span>
+                </td>
+                <td colSpan="2" rowSpan="1">
+                  Get started with Technical blogging
+                  <span className="text-slate-600">
+                    By Bhavani Ravi Independent Software Consultant
                   </span>
                 </td>
               </tr>
@@ -326,7 +329,7 @@ export function Hero() {
                 <td colSpan="2" rowSpan="1">
                   Actions on Google + IoT
                   <span className="text-slate-600">
-                    By Thirupathi Krishnan & Ghana Ganesh, Thoughtworks
+                    By Thirupathi Krishnan & Gnana Ganesh, Thoughtworks
                   </span>
                 </td>
               </tr>
@@ -339,11 +342,8 @@ export function Hero() {
                   </span>
                 </td>
                 <td colSpan="2" rowSpan="1">
-                  Jetpack Compose
-                  <span className="text-slate-600">
-                    By Somasundaram Mahesh Software Development Engineer,
-                    Disney+ Hotstar
-                  </span>
+                  A different way to think about animations with Jetpack Compose
+                  <span className="text-slate-600">By Sanjay S</span>
                 </td>
               </tr>
               <tr>

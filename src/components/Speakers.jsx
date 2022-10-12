@@ -16,7 +16,7 @@ import somuImage from '@/images/avatars/somu.png'
 import thirupathiImage from '@/images/avatars/thirupathi.png'
 import navaneethImage from '@/images/avatars/navaneeth.png'
 import vidhyaImage from '@/images/avatars/vidhya.png'
-import ghanaImage from '@/images/avatars/ghana.png'
+import gnanaImage from '@/images/avatars/gnana.png'
 
 const speakers = [
   {
@@ -30,9 +30,9 @@ const speakers = [
     image: bhavaniImage,
   },
   {
-    name: 'Ghana Ganesh',
+    name: 'Gnana Ganesh',
     role: 'Application Developer, Thoughtworks',
-    image: ghanaImage,
+    image: gnanaImage,
   },
   {
     name: 'Kiruthika S',
